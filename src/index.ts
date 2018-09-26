@@ -1,2 +1,2 @@
-export * from './ionic3-input-scroll-into-view.module';
-export * from './directives/ionic3-input-scroll-into-view.directive';
+export * from './ion-input-scroll-into-view.module';
+export * from './directives/ion-input-scroll-into-view.directive';
