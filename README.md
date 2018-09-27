@@ -1,7 +1,6 @@
 # ion-input-scroll-into-view
 
-A simple directive for scrolling the input into the view on focus event for Ionic 2/3 applications. Can be attached to ion-input and ion-textarea. The element is scrolled into view only if needed. 
-A thin Ionic3 directive bundled with the scroll-into-view-if-needed ponyfill.
+A thin directive bundled with the scroll-into-view-if-needed ponyfill for scrolling the ion-input into the view on focus event. The element is scrolled into view only if needed and this directive can be attached to ion-input and ion-textarea. Built for both Ionic 2 & 3 applications.
 
 # Install
 
@@ -11,11 +10,11 @@ A thin Ionic3 directive bundled with the scroll-into-view-if-needed ponyfill.
 
 ## Step-1
 
-### attach the ion-input-scroll-into-view directive to the <ion-input> or <ion-textarea> as follows.
+### attach the ion-input-scroll-into-view directive to the ion-input or ion-textarea as follows.
 ```
     <ion-item>
         <ion-label> <ion-icon name="person"></ion-icon></ion-label>
-        <ion-input ion-input-scroll-into-view type="text" [(ngModel)]="loginObj.username"></ion-input>
+        <ion-input ion-input-scroll-into-view></ion-input>
     </ion-item>
 ```
 
@@ -27,7 +26,7 @@ A thin Ionic3 directive bundled with the scroll-into-view-if-needed ponyfill.
 
 ## Step-2
 
-### you have to import the StarRatingModule in the module.ts of your parent component as follows
+### you have to import the IonInputScrollIntoViewModule in the module.ts of your parent component as follows
 ```
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';

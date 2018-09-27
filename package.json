@@ -1,7 +1,7 @@
 {
-  "name": "ionic3-input-scroll-into-view",
-  "version": "1.0.0",
-  "description": "A simple directive for scrolling the input into the view on keyboard open for Ionic 2/3 applications. A thin Ionic3 directive bundled with the fantastic scroll-into-view-if-needed ponyfill.",
+  "name": "ion-input-scroll-into-view",
+  "version": "1.0.1",
+  "description": " A thin directive bundled with the scroll-into-view-if-needed ponyfill for scrolling the ion input into the view on focus event only if needed. Built for both Ionic 2 & 3 applications",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "files": [
@@ -13,9 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/melwinVincent/ionic3-input.git"
+    "url": "git+https://github.com/melwinVincent/ion-input-scroll-into-view.git"
   },
   "keywords": [
+    "ion input scroll into view",
+    "ion input scrollIntoView",
+    "ion input scroll into view if needed",
+    "ion input scrollIntoViewIfNeeded",
     "ionic3 input scroll into view",
     "ionic input scroll into view",
     "ionic 3 input scroll into view",
