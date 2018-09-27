@@ -11,18 +11,10 @@ A thin directive bundled with the scroll-into-view-if-needed ponyfill for scroll
 ## Step-1
 
 ### attach the ion-input-scroll-into-view directive to the ion-input or ion-textarea as follows.
-```
-    <ion-item>
-        <ion-label> <ion-icon name="person"></ion-icon></ion-label>
-        <ion-input ion-input-scroll-into-view></ion-input>
-    </ion-item>
-```
 
-```
-    <ion-item>
-        <ion-textarea ion-input-scroll-into-view></ion-textarea>
-    </ion-item>
-```
+` <ion-input ion-input-scroll-into-view></ion-input> `
+
+` <ion-textarea ion-input-scroll-into-view></ion-textarea> `
 
 ## Step-2
 
